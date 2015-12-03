@@ -13,7 +13,8 @@
 
     /**
      * Check if all of the key/value pairs in 
-     * desired exist and equal those in target
+     * desired exist and equal those in target.
+     *
      * @param target the object we are searching for desired attributes
      * @param desired the desired attributes 
      * @return true if all key/value pairs in desired exist in target,
