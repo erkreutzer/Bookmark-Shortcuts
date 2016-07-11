@@ -6,7 +6,6 @@
     // These are the accepted states of keycodes
     var expectedModifiers = {
         ctrlKey: true,
-        altGraphKey: false,
         altKey: false,
         metaKey: false
     };
@@ -23,7 +22,6 @@
     var matches = function(target, desired) {
         for (var key in desired) {
             if (!(desired.hasOwnProperty(key)
-                  && target.hasOwnProperty(key)
                   && (target[key] === desired[key]))) {
                 return false;
             }
